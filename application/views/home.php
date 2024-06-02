@@ -312,77 +312,76 @@
 </div>
 
 <section class="statistik" id="data" style="background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,117,136,1) 35%, rgba(143,212,226,1) 100%);">
-                    <div class="container">
-                        <h5 class="text-center text-white">Data Pendaftar </h5>
-                        <h6 class="text-center text-white pb-4">Peserta Didik Baru Tahun 2024</h6>
-                        <div class="row">
-                          <div class="col-md-4 text-center">
-                            <h3 class="text-white font-weight-bold h1"><?php echo $total_siswa; ?></h3>
-                            <p class="text-white">TOTAL PENDAFTAR</p>
-                          </div>
-                          <div class="col-md-4 text-center">
-                            <h3 class="text-white font-weight-bold h1"><?php echo $total_ipa; ?></h3>
-                            <p class="text-white">IPA</p>
-                          </div>
-                          <div class="col-md-4 text-center">
-                            <h3 class="text-white font-weight-bold h1"><?php echo $total_ips; ?></h3>
-                            <p class="text-white">IPS</p>
-                          </div>
-                        </div>
-                      </div>
-                  
+  <div class="container">
+      <h5 class="text-center text-white">Data Pendaftar </h5>
+      <h6 class="text-center text-white pb-4">Peserta Didik Baru Tahun 2024</h6>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h3 class="text-white font-weight-bold h1"><?php echo $total_siswa; ?></h3>
+          <p class="text-white">TOTAL PENDAFTAR</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="text-white font-weight-bold h1"><?php echo $total_ipa; ?></h3>
+          <p class="text-white">IPA</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="text-white font-weight-bold h1"><?php echo $total_ips; ?></h3>
+          <p class="text-white">IPS</p>
+        </div>
+      </div>
+    </div>    
 </section>
 
     
 
 <section class="tentang" id="tentang">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              src="<?php echo base_url() ?>assets/img/undraw_edu.svg"
-              alt="tentang sekolah"
-              class="img-fluid mx-auto d-block"
-              height="25"
-            />
-          </div>
-          <div class="col-md-6">
-            <h3 class="font-weight-bold mb-3 mt-5">TENTANG SMKNDU</h3>
-            <p class="deskripsi">
-              SMKNDU Adalah Sekolah menengah kejuruan negeri yang berdiri sejak
-              2003. SMKNDU Adalah Sekolah menengah kejuruan negeri yang berdiri
-              sejak 2003. SMKNDU Adalah Sekolah menengah kejuruan negeri yang
-              berdiri sejak 2003. SMKNDU Adalah Sekolah menengah kejuruan negeri
-              yang berdiri sejak 2003.
-            </p>
-
-            <p class="font-weight-bold mt-4">Kontak Kami</p>
-            <ul class="social">
-              <li>
-                <a href="tel:082302002407">
-                  <img src="assets/img/icons/telephone.svg" alt="telephone" />
-                </a>
-              </li>
-              <li>
-                <a href="mailto:est23.edi@gmail.com">
-                  <img src="assets/img/icons/email.svg" alt="email" />
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/est23.edi">
-                  <img src="assets/img/icons/facebook.svg" alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a href="https://smkndu.sch.id">
-                  <img src="assets/img/icons/internet.svg" alt="website" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img
+          src="<?php echo base_url() ?>assets/img/undraw_edu.svg"
+          alt="tentang sekolah"
+          class="img-fluid mx-auto d-block"
+          height="25"
+        />
       </div>
-    </section>
+      <div class="col-md-6">
+        <h3 class="font-weight-bold mb-3 mt-5">TENTANG SMAN 180 JAKARTA</h3>
+        <p class="deskripsi">
+          SMAN 180 Jakarta Adalah Sekolah menengah atas negeri yang berdiri sejak
+          2003. SMAN-180 Adalah Sekolah menengah kejuruan negeri yang berdiri
+          sejak 2003. SMAN-180 Adalah Sekolah menengah kejuruan negeri yang
+          berdiri sejak 2003. SMKNDU Adalah Sekolah menengah kejuruan negeri
+          yang berdiri sejak 2003.
+        </p>
+
+        <p class="font-weight-bold mt-4">Kontak Kami</p>
+        <ul class="social">
+          <li>
+            <a href="tel:082302002407">
+              <img src="assets/img/icons/telephone.svg" alt="telephone" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:est23.edi@gmail.com">
+              <img src="assets/img/icons/email.svg" alt="email" />
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/est23.edi">
+              <img src="assets/img/icons/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://smkndu.sch.id">
+              <img src="assets/img/icons/internet.svg" alt="website" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
     <footer>
       <div class="text-center py-3 bg-light">
