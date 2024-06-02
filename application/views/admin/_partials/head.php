@@ -9,8 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    
-
     <title>NESI - Admin</title>
 
     <style>
@@ -43,4 +41,5 @@
     <link href="<?= base_url() ?>assets/vendor/datepicker/css/bootstrap-datepicker.css" rel="stylesheet">
 
 </head>
+
 <body style="font-family:Poppins-Regular,sans-serif;">

@@ -1,22 +1,14 @@
-
- <!-- Content Wrapper -->
- <div id="content-wrapper" class="d-flex flex-column">
-
-<!-- Main Content -->
-<div id="content">
-
-<div class="container-fluid">
-
-<div>
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb mt-3 shadow-sm mb-4 p-3" style="background-color:white;">
-        <li class="breadcrumb-item font-weight-bold" aria-current="page">Verifikasi</li>
-    </ol>
-    
-</nav>
-
-</div>
-</div>
+<div id="content-wrapper" class="d-flex flex-column">
+    <div id="content"> 
+        <div class="container-fluid">
+            <div>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-3 shadow-sm mb-4 p-3" style="background-color:white;">
+                        <li class="breadcrumb-item font-weight-bold" aria-current="page">Verifikasi</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
 
 <div id="content-wrapper">
     <div class="container-fluid">
@@ -90,16 +82,16 @@
                                         </button>
                                     </div>
                                 </div>
-                    </div>
+                            </div>
                         </form>
                         <?php
-                    }
-                ?>
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
-            </div>
-            </div>
-</div>
-</div>
+        </div>
+    </div>
 </div>
 </div>
 </div>

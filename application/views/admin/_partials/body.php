@@ -1,12 +1,7 @@
-
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-
-                <!-- Sidebar - Brand -->
-                <a class="sidebar-brand d-flex align-items-center justify-content-center mt-2" href="index.html">
-                    <div class="sidebar-brand-icon">
+<div id="wrapper">
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center mt-2" href="index.html">
+            <div class="sidebar-brand-icon">
                 <?php
                 $avatar = $current_user->avatar ?
                     base_url('upload/avatar/' . $current_user->avatar)
@@ -17,12 +12,10 @@
                 class=""
                 style="max-height: 40px;"
                 />
-                </div>
-                <div class="sidebar-brand-text"><h5 class="small mt-2 ml-3"><span class="font-weight-bold" style="font-size:12px;"><?= htmlentities($current_user->name) ?></span><br><span style="font-size:9px;text-transform:lowercase;"><?= htmlentities($current_user->email) ?></span></h5></div>
-            </a>
+            </div>
+            <div class="sidebar-brand-text"><h5 class="small mt-2 ml-3"><span class="font-weight-bold" style="font-size:12px;"><?= htmlentities($current_user->name) ?></span><br><span style="font-size:9px;text-transform:lowercase;"><?= htmlentities($current_user->email) ?></span></h5></div>
+        </a>
 
-
-            
             <!-- Divider -->
             <hr class="sidebar-divider my-0" style="background-color:black;">
 
@@ -85,11 +78,9 @@
                     <span class="font-weight-bold">LOG-OUT</span></a>
             </li>
 
-
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-            
-
+        
         </ul>
         <!-- End of Sidebar -->
         
