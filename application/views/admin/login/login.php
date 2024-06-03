@@ -44,7 +44,7 @@
         <section style="padding:0 0;">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-md-8">
+              <div class="col-md-6">
                 <div class="card o-hidden shadow" style="background-color:#fdfff5;">
                   <div class="card-header" style="background-color:#367588;">
                     <h4 class="font-weight-bold">HALAMAN LOGIN ADMIN</h4>
